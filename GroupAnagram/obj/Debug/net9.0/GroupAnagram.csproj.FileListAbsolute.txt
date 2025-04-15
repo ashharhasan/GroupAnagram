@@ -1,0 +1,14 @@
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram.deps.json
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram.runtimeconfig.json
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram.dll
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/bin/Debug/net9.0/GroupAnagram.pdb
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.AssemblyInfoInputs.cache
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.AssemblyInfo.cs
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.csproj.CoreCompileInputs.cache
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.dll
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/refint/GroupAnagram.dll
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.pdb
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.genruntimeconfig.cache
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/ref/GroupAnagram.dll

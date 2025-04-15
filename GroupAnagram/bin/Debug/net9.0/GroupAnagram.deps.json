@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "GroupAnagram/1.0.0": {
+        "runtime": {
+          "GroupAnagram.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GroupAnagram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
