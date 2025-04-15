@@ -12,3 +12,4 @@
 /Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.pdb
 /Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.genruntimeconfig.cache
 /Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/ref/GroupAnagram.dll
+/Users/ashhar/Documents/workingFolder/GroupAnagram/GroupAnagram/obj/Debug/net9.0/GroupAnagram.sourcelink.json

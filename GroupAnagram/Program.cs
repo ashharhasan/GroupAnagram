@@ -10,54 +10,26 @@ string[] input = { "act", "pots", "tops", "cat", "stop", "hat" };
         }
 
 List<List<string>> GroupAnagrams(string[] strs) {
-    //Dictionary<string,int> d1= new  Dictionary<string, int>();
-    List<List<string>> output = new List<List<string>>();
+    Dictionary<string, List<string>> d1 = new Dictionary<string, List<string>>();
 
-foreach (var str in strs)
+    foreach(var str in strs)
+    {
+        string hkey= GetFreqMap(str);
+        if(!d1.ContainsKey(hkey))
+        {
+            d1.Add(hkey,new List<string>());
+        }
+        d1[hkey].Add(str);
+    }
+    return d1.Values.ToList();
+}
+
+string GetFreqMap(string str)
 {
-    if(output.Count == 0)
+    int[] freq = new int[26];
+    foreach(char c in str)
     {
-        output.Add(new List<string>{str});
-        continue;
+        freq[c - 'a']++;
     }
-    bool found=false;
-    for(int i=0;i<output.Count;i++)
-    {
-        if(isAnagram(output[i][0], str))
-        {
-            output[i].Add(str);
-            found = true;
-            break;
-        }
-    }
-    if (!found)
-    {
-        output.Add(new List<string>{str});
-    }
+    return String.Join('#',freq);
 }
-return output;
-}
-
-
-     bool isAnagram (string s1,string s2)
-    {
-        Dictionary<char,int> d1 = new Dictionary <char, int>();
-        if(s1.Length!=s2.Length)
-            return false;
-
-        for (int i=0; i<s1.Length;i++)
-        {
-            d1[s1[i]]= d1.GetValueOrDefault(s1[i]) +1;
-        }
-        for(int i=0;i<s1.Length; i++)
-        {
-            if(!d1.ContainsKey(s2[i]))
-                return false;
-            d1[s2[i]]--;
-            if(d1[s2[i]] <0)
-            {
-                return false;
-            }
-        }
-        return true;
-    }
